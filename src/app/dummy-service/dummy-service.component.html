@@ -1,0 +1,12 @@
+<table style="width: 20%;">
+    <tr>
+        <th><b>ID</b></th>
+        <th><b>Name</b></th>
+        <th><b>Age</b></th>
+    </tr>
+    <tr *ngFor="let data of data$">
+        <td>{{data.id}}</td>
+        <td>{{data.type}}</td>
+        <td>{{data.price}}</td>
+    </tr>
+</table>

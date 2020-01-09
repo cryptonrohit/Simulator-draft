@@ -1,0 +1,12 @@
+<div class="jumbotron" style="background-color: lightgreen;border: 10px;padding: 20px;">
+    <h1 style="text-align: center;">Virtual Depot - Simulator</h1>
+</div>
+
+<!-- <button type="button" class="btn btn-primary btn-lg">Authorize</button> -->
+
+<div *ngIf = "isUserid_authorized">
+    <p style="color: green;">You can charge. :)</p> 
+</div>
+<ng-template *ngIf = "!isUserid_authorized">
+        <div>gfshgfhgshfgh</div>  
+</ng-template>

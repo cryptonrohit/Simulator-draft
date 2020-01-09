@@ -1,0 +1,17 @@
+
+<!-- <button style="height:25px;width:25px;color: palevioletred;">
+    <span class="glyphicon glyphicon-info-sign" (click)=expandInfo()></span>
+</button>
+<span *ngIf="expandInfoValue" style="border: 2px solid palevioletred;">
+    <span style="color: blue;">  (You can change the connector Status values from the dropdown list)  </span>
+</span> -->
+
+<div>
+    <h3 ><u>Connector Status Values</u></h3>
+    <select [(ngModel)]="value" >
+        <option *ngFor="let status of statusValues" [ngValue]="status">
+           {{status.name}}
+        </option>
+     </select><br/>
+     Current selected Status value is: <span>{{value.name}}  </span><br/><br/>
+</div>

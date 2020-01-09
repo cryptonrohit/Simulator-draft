@@ -1,0 +1,17 @@
+div.solid{
+    border-style: solid;
+}
+p{
+    font-size: 15px;
+    color:blue;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+select{
+    color: burlywood;
+}
+button{
+    
+    margin-top: 20px;
+    color: lightblue;
+}

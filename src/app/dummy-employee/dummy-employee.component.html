@@ -1,0 +1,18 @@
+<!-- <div *ngFor="let value of employee">
+    {{value.id}}-{{value.name}}-{{value.age}}
+</div> -->
+
+<table style="width: 20%;">
+    <tr>
+        <th><b>ID</b></th>
+        <th><b>Name</b></th>
+        <th><b>Age</b></th>
+    </tr>
+    <tr *ngFor="let data of employee">
+        <td>{{data.id}}</td>
+        <td>{{data.name}}</td>
+        <td>{{data.age}}</td>
+    </tr>
+</table>
+<button>Update</button>
+<button>Delete</button>

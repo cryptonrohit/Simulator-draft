@@ -1,0 +1,19 @@
+<app-main-heading></app-main-heading>
+
+<div *ngIf="!connectClickValue">
+    <h3 style="color: darkmagenta;margin-bottom: 40px;">Please enter the Central Station for getting Connected.</h3>
+<label style="font: bolder;color: chocolate;">Central Station: </label>&nbsp;
+<span>
+    <input type="text" style="background-color: lightgrey;" value="wss://ebusdev-chargerapp-ebusdev.eu1.mindsphere.io/ChargingStations" size="60" readonly>&nbsp;
+    <input type="text" value="Subtenant_id">&nbsp;
+    <input type="text" value="Charger_id">
+</span>
+
+<p><label style="font: bolder;color: chocolate;">TAG: </label>
+    <input type="text" value="TESTTAG" size="20"></p>
+
+<button [style.background-color]="connectButtonColor ? 'lightgreen' : 'lightblue'" (click)="onClickConnect()">
+    Connect
+</button>
+</div>
+

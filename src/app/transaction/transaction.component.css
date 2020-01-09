@@ -1,0 +1,23 @@
+.b1{
+    height: 70px; width: 150px;margin-left: 100px;background-color: lightblue;
+}
+.b2{
+    height: 70px; width: 150px;margin-left: 300px;background-color: lightblue;
+}
+.b3{
+    height: 70px; width: 150px;margin-left: 300px;background-color: lightblue;
+}
+.start{
+    color: green;margin-bottom: 30px;
+}
+.stop{
+    color: red;margin-bottom: 30px;
+}
+.disconnect{
+    color: blue;
+}
+.a{
+    margin-right: 20%;
+    margin-left: 10%;
+}
+

@@ -1,0 +1,14 @@
+table{
+    border: 2px solid black;
+    margin-left: 10px;
+    float: left;
+    margin-right: 250px;
+  }
+button{
+    margin-top: 50px;
+    background-color:rgb(86, 176, 206);
+    margin-left: 10px;
+}
+table{
+    margin-right:250px;
+}
