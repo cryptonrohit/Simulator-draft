@@ -28,6 +28,7 @@ export class AuthorizeComponent implements OnInit {
         this.isUserid_authorized=false;
     });
     
+    
   }
 
 
